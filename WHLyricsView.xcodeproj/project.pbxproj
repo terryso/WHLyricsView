@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0115A59B1AFBBC1F005F1C52 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0115A59A1AFBBC1F005F1C52 /* Reveal.framework */; };
+		3397626F0A1805C981768E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3397651DB86F10270C119502 /* Main.storyboard */; };
+		33976310223BED1093E6EF11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339763E8C070D11A4AEDE816 /* ViewController.m */; };
+		339763CFAB4ECA0B139C4744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339760CD65CEA1537DB39AFA /* AppDelegate.m */; };
+		3397647DE1F083487B074B74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339764B4113A440F1AEEABCF /* LaunchScreen.xib */; };
+		339764A3832A1B1565718D93 /* WHWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3397643D4BF78F2BE4A413B8 /* WHWord.m */; };
+		339764A6F5873ECD6648C6EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339769ABE648738952426BCD /* main.m */; };
+		339765C6E3F8ED258528BA54 /* WHStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 33976771459DF67D89224311 /* WHStatement.m */; };
+		3397669DB6A35ADD6226D403 /* WHLyricsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3397635442D484AAFABD6C1E /* WHLyricsLabel.m */; };
+		33976A07835635068DFF5FE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33976AC74491B480BF20AFD8 /* Images.xcassets */; };
+		33976B13B16DA45BC0B73DBC /* WHLyricsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3397608D9978D21269952B07 /* WHLyricsParser.m */; };
+		33976B8B4A87464D9676BCF5 /* 爱与痛的边缘.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339763E10390A29664B6A1D8 /* 爱与痛的边缘.mp3 */; };
+		33976BEAED0D3F7520E4E9E0 /* 爱与痛的边缘.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 33976690B45D486C65528B5D /* 爱与痛的边缘.lrc */; };
+		33976C25A1BF8FD1A39BF197 /* WHLyricsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33976E56FDCA68AB7F0D8B13 /* WHLyricsViewTests.m */; };
+		33976F269B4FFF946F71A745 /* LyricsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 339767C0DB7D790FD6A67455 /* LyricsTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3397662D890E2E2B21151667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339764F8A9C8DA09B045E98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339766D0511D786791201DBB;
+			remoteInfo = WHLyricsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0115A59A1AFBBC1F005F1C52 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		3397608D9978D21269952B07 /* WHLyricsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLyricsParser.m; sourceTree = "<group>"; };
+		339760CD65CEA1537DB39AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33976131F9510225943542B4 /* WHLyricsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLyricsLabel.h; sourceTree = "<group>"; };
+		3397635442D484AAFABD6C1E /* WHLyricsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLyricsLabel.m; sourceTree = "<group>"; };
+		339763E10390A29664B6A1D8 /* 爱与痛的边缘.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱与痛的边缘.mp3"; sourceTree = "<group>"; };
+		339763E8C070D11A4AEDE816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3397643D4BF78F2BE4A413B8 /* WHWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWord.m; sourceTree = "<group>"; };
+		33976684A2E3D0027B8A85EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33976690B45D486C65528B5D /* 爱与痛的边缘.lrc */ = {isa = PBXFileReference; lastKnownFileType = file.lrc; path = "爱与痛的边缘.lrc"; sourceTree = "<group>"; };
+		33976771459DF67D89224311 /* WHStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHStatement.m; sourceTree = "<group>"; };
+		339767AAC81B017A03ED4329 /* WHStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHStatement.h; sourceTree = "<group>"; };
+		339767C0DB7D790FD6A67455 /* LyricsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsTableViewCell.m; sourceTree = "<group>"; };
+		339769ABE648738952426BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33976A1EC73B48CE5176555B /* WHLyricsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLyricsParser.h; sourceTree = "<group>"; };
+		33976A9CEA9AB27EE546453D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33976AC53FDEAE91B6669FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33976AC74491B480BF20AFD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33976B429FD337CED1F7013D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		33976BCAAC96B7583589A7E0 /* WHWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHWord.h; sourceTree = "<group>"; };
+		33976C006340BF45DE2E3F99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33976CCE5ED50955D47B5F72 /* LyricsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsTableViewCell.h; sourceTree = "<group>"; };
+		33976D399E17BED1084A77BB /* WHLyricsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHLyricsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33976DFB3BA5B0D3ACCA2789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		33976E56FDCA68AB7F0D8B13 /* WHLyricsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLyricsViewTests.m; sourceTree = "<group>"; };
+		33976E8F3BC471F07BF5D9B1 /* WHLyricsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHLyricsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339767657867AD5F77C33294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0115A59B1AFBBC1F005F1C52 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33976B45CBB454FCC6DE454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3397605B88D31742D764688E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33976690B45D486C65528B5D /* 爱与痛的边缘.lrc */,
+				339763E10390A29664B6A1D8 /* 爱与痛的边缘.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		339760A673CB3C8178884ED2 /* WHLyricsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				339761A972D12032B8F32541 /* Supporting Files */,
+				33976E56FDCA68AB7F0D8B13 /* WHLyricsViewTests.m */,
+			);
+			path = WHLyricsViewTests;
+			sourceTree = "<group>";
+		};
+		339761A972D12032B8F32541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33976B429FD337CED1F7013D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33976298486E87135085DDCB /* WHLyricsView */ = {
+			isa = PBXGroup;
+			children = (
+				0115A59A1AFBBC1F005F1C52 /* Reveal.framework */,
+				33976F13F4CBA5175B871749 /* Supporting Files */,
+				33976AC74491B480BF20AFD8 /* Images.xcassets */,
+				339764B4113A440F1AEEABCF /* LaunchScreen.xib */,
+				33976A9CEA9AB27EE546453D /* AppDelegate.h */,
+				339760CD65CEA1537DB39AFA /* AppDelegate.m */,
+				3397651DB86F10270C119502 /* Main.storyboard */,
+				33976C006340BF45DE2E3F99 /* ViewController.h */,
+				339763E8C070D11A4AEDE816 /* ViewController.m */,
+				33976D1C88DBD013E8CACF71 /* Classes */,
+				3397605B88D31742D764688E /* Resources */,
+				339767C0DB7D790FD6A67455 /* LyricsTableViewCell.m */,
+				33976CCE5ED50955D47B5F72 /* LyricsTableViewCell.h */,
+			);
+			path = WHLyricsView;
+			sourceTree = "<group>";
+		};
+		339767E6047A12EBF3AC09CB = {
+			isa = PBXGroup;
+			children = (
+				3397691E62BEC7AB5CA36C9C /* Products */,
+				33976298486E87135085DDCB /* WHLyricsView */,
+				339760A673CB3C8178884ED2 /* WHLyricsViewTests */,
+			);
+			sourceTree = "<group>";
+		};
+		3397691E62BEC7AB5CA36C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33976E8F3BC471F07BF5D9B1 /* WHLyricsView.app */,
+				33976D399E17BED1084A77BB /* WHLyricsViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33976D1C88DBD013E8CACF71 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33976771459DF67D89224311 /* WHStatement.m */,
+				339767AAC81B017A03ED4329 /* WHStatement.h */,
+				3397643D4BF78F2BE4A413B8 /* WHWord.m */,
+				33976BCAAC96B7583589A7E0 /* WHWord.h */,
+				3397608D9978D21269952B07 /* WHLyricsParser.m */,
+				33976A1EC73B48CE5176555B /* WHLyricsParser.h */,
+				3397635442D484AAFABD6C1E /* WHLyricsLabel.m */,
+				33976131F9510225943542B4 /* WHLyricsLabel.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33976F13F4CBA5175B871749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33976DFB3BA5B0D3ACCA2789 /* Info.plist */,
+				339769ABE648738952426BCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339766D0511D786791201DBB /* WHLyricsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33976A53AE01D4803C7989B5 /* Build configuration list for PBXNativeTarget "WHLyricsView" */;
+			buildPhases = (
+				339765844CD3F6F739A63872 /* Sources */,
+				339767657867AD5F77C33294 /* Frameworks */,
+				33976DFC70C8F4BB0B79B48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHLyricsView;
+			productName = WHLyricsView;
+			productReference = 33976E8F3BC471F07BF5D9B1 /* WHLyricsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33976CDC7A3A72D0D56E1082 /* WHLyricsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33976AD553F53EADA5468DFE /* Build configuration list for PBXNativeTarget "WHLyricsViewTests" */;
+			buildPhases = (
+				33976984CFC6161703B04F8D /* Sources */,
+				33976B45CBB454FCC6DE454E /* Frameworks */,
+				339763A1CEA167E55E0F4810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339762169C069029723C5FA9 /* PBXTargetDependency */,
+			);
+			name = WHLyricsViewTests;
+			productName = WHLyricsViewTests;
+			productReference = 33976D399E17BED1084A77BB /* WHLyricsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339764F8A9C8DA09B045E98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "WeHack Studio";
+			};
+			buildConfigurationList = 33976B0B237164211F1415D7 /* Build configuration list for PBXProject "WHLyricsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 339767E6047A12EBF3AC09CB;
+			productRefGroup = 3397691E62BEC7AB5CA36C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339766D0511D786791201DBB /* WHLyricsView */,
+				33976CDC7A3A72D0D56E1082 /* WHLyricsViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339763A1CEA167E55E0F4810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33976DFC70C8F4BB0B79B48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33976A07835635068DFF5FE1 /* Images.xcassets in Resources */,
+				3397647DE1F083487B074B74 /* LaunchScreen.xib in Resources */,
+				3397626F0A1805C981768E07 /* Main.storyboard in Resources */,
+				33976BEAED0D3F7520E4E9E0 /* 爱与痛的边缘.lrc in Resources */,
+				33976B8B4A87464D9676BCF5 /* 爱与痛的边缘.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339765844CD3F6F739A63872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339764A6F5873ECD6648C6EE /* main.m in Sources */,
+				339763CFAB4ECA0B139C4744 /* AppDelegate.m in Sources */,
+				33976310223BED1093E6EF11 /* ViewController.m in Sources */,
+				339765C6E3F8ED258528BA54 /* WHStatement.m in Sources */,
+				339764A3832A1B1565718D93 /* WHWord.m in Sources */,
+				33976B13B16DA45BC0B73DBC /* WHLyricsParser.m in Sources */,
+				3397669DB6A35ADD6226D403 /* WHLyricsLabel.m in Sources */,
+				33976F269B4FFF946F71A745 /* LyricsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33976984CFC6161703B04F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33976C25A1BF8FD1A39BF197 /* WHLyricsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339762169C069029723C5FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339766D0511D786791201DBB /* WHLyricsView */;
+			targetProxy = 3397662D890E2E2B21151667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339764B4113A440F1AEEABCF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33976684A2E3D0027B8A85EA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3397651DB86F10270C119502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33976AC53FDEAE91B6669FE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33976164F2016066A89159C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339762BD172529A0BA6A09B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WHLyricsView",
+				);
+				INFOPLIST_FILE = WHLyricsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		339766AC2B05091E44879CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WHLyricsView",
+				);
+				INFOPLIST_FILE = WHLyricsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33976866A96A82EB8292AEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WHLyricsView.app/WHLyricsView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WHLyricsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		33976A423530B6E75378A3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33976B8CB5D9E903A99E094D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WHLyricsView.app/WHLyricsView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WHLyricsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33976A53AE01D4803C7989B5 /* Build configuration list for PBXNativeTarget "WHLyricsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339766AC2B05091E44879CC9 /* Debug */,
+				339762BD172529A0BA6A09B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33976AD553F53EADA5468DFE /* Build configuration list for PBXNativeTarget "WHLyricsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33976866A96A82EB8292AEAF /* Debug */,
+				33976B8CB5D9E903A99E094D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33976B0B237164211F1415D7 /* Build configuration list for PBXProject "WHLyricsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33976A423530B6E75378A3C8 /* Debug */,
+				33976164F2016066A89159C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339764F8A9C8DA09B045E98E /* Project object */;
+}
